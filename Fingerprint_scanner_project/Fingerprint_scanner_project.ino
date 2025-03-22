@@ -227,12 +227,12 @@ bool getFingerprintEnroll() {
 
   return false;
 }
-
+// save the fingerprint id to the database in the sd card
 void saveToCSV(uint8_t id, String name) {
   File csvFile = SD.open("/users.csv", FILE_WRITE);
   if (csvFile) {
     csvFile.seek(csvFile.size());
-    String dateTime = "2025-01-21 10:00:00"; 
+    String dateTime = "2025-01-20 10:00:00"; 
     csvFile.print(id);
     csvFile.print(",");
     csvFile.print(name);
