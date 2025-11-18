@@ -129,31 +129,31 @@ Important: The `DateTime` column is currently a placeholder in code. See “Real
 
 The following screenshots show the device and Serial Monitor interaction during setup, enrollment, and identification. Images are listed in sequence (1 → 7).
 
-- Screenshot 1: Hardware overview (ESP32, fingerprint sensor, microSD module)
+- Screenshot 1: 
 
 ![Screenshot 1](screenshots/1.png)
 
-- Screenshot 2: SD card initialization message on Serial Monitor
+- Screenshot 2:
 
 ![Screenshot 2](screenshots/2.png)
 
-- Screenshot 3: Fingerprint sensor detected and ready prompt
+- Screenshot 3:
 
 ![Screenshot 3](screenshots/3.png)
 
-- Screenshot 4: Capturing first fingerprint image during enrollment
+- Screenshot 4: 
 
 ![Screenshot 4](screenshots/4.png)
 
-- Screenshot 5: Capturing second fingerprint image for confirmation
+- Screenshot 5: 
 
 ![Screenshot 5](screenshots/5.png)
 
-- Screenshot 6: Enrollment success and storage confirmation
+- Screenshot 6:
 
 ![Screenshot 6](screenshots/6.png)
 
-- Screenshot 7: users.csv content shown from SD or Serial listing
+- Screenshot 7:
 
 ![Screenshot 7](screenshots/7.png)
 
